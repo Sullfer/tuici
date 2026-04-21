@@ -2,7 +2,7 @@
 Tuici is a lightweight, simple image viewer through the terminal.
 
 ### How to use tuici
-For now, clone the repo and build.
+For now, clone the repo and build, either make, or gcc.
 ```
 gcc -Iinclude -Ithird_party src/main.c src/image.c src/tui.c src/render.c -o tiv.exe
 ```
